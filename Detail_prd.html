@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Détail produit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body style="font-family: 'Montserrat', sans-serif;">
+  <div class="container-fluid" style="background-color: #f0a7a1; padding-top: 4px; padding-bottom: 4px;">
+      <div class="row">
+        <div class="col-sm-7 responsiveNavBar">
+          <small>Vous souhaitez vendre sur Nenufea :<strong> <a class="navbarSignUp" href="#">Inscrivez vous ici</a> </strong></small>
+        </div>
+        <div class="col-sm-5" style="text-align:center;">
+          <small>headset : <strong> + 33 6 60 11 68 53</strong></small>
+        </div>
+      </div>
+  </div>
+  <nav style="background-color: white; padding: 10px;box-shadow: 2px 5px 14px #ebeaea;" class="navbar navbar-expand-md bg-white navbar-light sticky-top">
+    <a style="padding-left: 1.8%;" class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="" srcset="" height="40px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <small><a class="nav-link" href="#">Maquillage <span class="sr-only">(current)</span></a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link" href="#">Visage</a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link" href="#">Corps</a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link" href="#"> Cheveux</a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link" href="#">Hygiène</a></small>
+        </li>        
+        <li class="nav-item">
+          <small><a class="nav-link" href="#">DIY</a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link" href="#">Coffrets</a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link" href="#">Artisants</a></small>
+        </li>        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">  
+        <div class="dropdown ResponsiveIconeAccountNavbar">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="https://img.icons8.com/material-outlined/24/000000/user--v1.png"/> John Doe
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tableau de Board</a>
+            <a class="dropdown-item" href="#">Déconnexion</a>            
+          </div>
+        </div>
+       <a href="#" class="text-dark btn ResponsiveIconeHeartNavbar"><img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"/></a>
+       <a href="#" class="text-dark btn ResponsiveIconeCartNavbar"><img src="https://img.icons8.com/material-rounded/24/000000/shopping-cart.png"/><span class="badge badge-info">0</span></a>               
+      </form>
+    </div>
+  </nav>
+  <div class="container">    
+    <!-- Section: product details -->
+    <section id="productDetails" class="pb-5">
+    <!--News card-->
+       <div style="border:0;" class="card mt-5 hoverable productAll">
+         <div class="row mt-5">
+           <div class="col-lg-6">
+              <div class="row mx-2">
+               <!--Carousel Wrapper-->
+                  <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
+                    <!-- slides -->
+                     <div class="carousel-inner">
+                       <div class="carousel-item active"> <img src="images/NoPath_fd.png" alt="Hills"> </div>
+                       <div class="carousel-item"> <img src="images/pexels-daria-shevtsova-1619488@2x.png" alt="Hills"> </div>
+                       <div class="carousel-item"> <img src="images/pexels-pixabay-161599.png" alt="Hills"> </div>
+                       <div class="carousel-item"> <img src="images/pexels-mareefe-1188511@2x.png" alt="Hills"> </div>
+                       <div class="carousel-item"> <img src="images/pexels-karolina-grabowska-4041.png" alt="Hills"> </div>                     
+                      </div> <!-- Left right --> <a class="carousel-control-prev" href="#custCarousel" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next" href="#custCarousel" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> <!-- Thumbnails -->
+                        <br>
+                        <ol class="carousel-indicators list-inline">
+                          <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel"> <img src="images/NoPath_fd.png" class="img-fluid"> </a> </li>
+                            <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel"> <img src="images/pexels-daria-shevtsova-1619488@2x.png" class="img-fluid"> </a> </li>
+                            <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel"> <img src="images/pexels-pixabay-161599.png" class="img-fluid"> </a> </li>
+                            <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="3" data-target="#custCarousel"> <img src="images/pexels-mareefe-1188511@2x.png" class="img-fluid"> </a> </li>
+                            <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="4" data-target="#custCarousel"> <img src="images/pexels-karolina-grabowska-4041.png" class="img-fluid"> </a> </li>
+                        </ol>
+                  </div>                         
+                  <br>
+                  
+              </div>                                        
+            </div>
+            
+            <div class="col-lg-5 mr-3 text-center text-md-left"> <br>
+                           
+              <h6><small><b>Huiles essenteilles</small></b></h6>
+              <h5 class="h2-responsive text-center text-md-left product-name  dark-grey-text mb-1 ml-xl-0 ml-4">
+                  Pack Huiles Essenteilles
+              </h5>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Produits naturels</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Sains</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Bio</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Vegan</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">100% recyclé</a>                        
+              <h5>
+                <span class="red-text font-weight-bold">
+                  <strong>96.<small><b>00</b></small> €</strong>
+                </span>
+                <span style="margin-left: 13%; color:grey;" class="grey-text">
+                  <small>
+                    <s><b>120. <small> <b> 00 </b></small> €</b></s>
+                  </small>
+                </span>
+                <span style="background-color:#336667; border-radius: 50%;" class="badge badge-success product mb-4 ml-2"><small> - 20 % </span>
+              </h5>              
+              <p style="color:gray; font-size: medium;"class="ml-xl-0 ml-4">
+                <img src="images/NoPath.png" alt="" srcset=""> Olivia health
+              </p>  
+              <h6><small>Base d'huile</small></h6>
+                                
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label style="margin-right: 6px; min-width: max-content;" class="btn btn-sm btn-outline-info btnComposantHuile active">
+                  <input  type="radio" name="options" id="option1" autocomplete="off" checked> Jasmin
+                </label>
+                <label style="margin-right: 6px; min-width: max-content;"  class="btn btn-sm btn-outline-info btnComposantHuile">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> Crocus
+                </label>
+                <label style="margin-right: 6px; min-width: max-content;" class="btn btn-sm btn-outline-info btnComposantHuile">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Dahlia
+                </label>
+                <label style="margin-right: 6px; min-width: max-content;"  class="btn btn-sm btn-outline-info btnComposantHuile">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Edelweiss
+                </label>
+                <label style="min-width: max-content;" class="btn btn-sm btn-outline-info btnComposantHuile">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Lavande
+                </label>                                
+              </div>
+              <p></p>                            
+              <h6><small>Origine</small></h6>
+              <div style="display:block" class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label style="margin-right: 6px; margin-bottom: 5px; min-width: max-content;" class="btnComposantHuile btn btn-sm btn-outline-info active">
+                  <input  type="radio" name="options" id="option1" autocomplete="off" checked> Mandarine Rouge
+                </label>
+                <label style="margin-right: 6px;  min-width: max-content;  margin-bottom: 5px;"  class="btnComposantHuile btn btn-sm btn-outline-info">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> Menthe poivrée
+                </label>
+                <label style="margin-right: 6px;  min-width: max-content;  margin-bottom: 5px;" class="btnComposantHuile btn btn-sm btn-outline-info">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Lavande Aspic
+                </label>
+                <label style="margin-right: 6px;  min-width: max-content;  margin-bottom: 5px;"  class="btnComposantHuile btn btn-sm btn-outline-info">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Sapin baumier
+                </label>
+               
+                <label style="min-width: max-content;  margin-bottom: 5px;" class="btnComposantHuile btn btn-sm btn-outline-info">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Marjolaine à Coquilles
+                </label>                    
+              </div>
+              <!-- skin 2 -->
+              <div class="num-block skin-2">
+                <div class="num-in">
+                  <span class="minus dis"></span>
+                  <input type="text" class="in-num" value="1" readonly="">
+                  <span class="plus"></span>
+                </div>
+                <button type="button" class="btn btn-primaryAddToCart">Ajouter au panier</button>
+              </div>
+              <br>
+              <button id="btnDownloadDetailsPrd" type="button" class="btn btn-DownloadDetailPrd">Télècharger les détails du produit</button>
+              <!-- / skin 2 -->           
+            </div>                 
+          </div>
+       </div>
+              <!--News card-->
+    </section>
+    <div class="product-overview-tab">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="product-tab-inner">
+              <ul id="product-detail-tab" class="nav nav-tabs product-tabs">
+                <li id="tabliComposition" class="tabisActive active linkTabl"><a id="tabComposition" href="" data-toggle="tab"> Composition </a></li>
+                <li id="tabliDetailProduit" class="linkTabl"><a  id="tabDetails" href="" data-toggle="tab">Détail produit</a></li>                
+              </ul>
+              <div id="productTabContent" class="tab-content">
+                <br>
+                <div style="display: block;" id="textCompostion">
+                  <div class="std">
+                    <p>Proin1 lectus ipsum, gravida et mattis vulputate, 
+                      tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in 
+                      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend 
+                      laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla
+                      luctus malesuada tincidunt. Nunc facilisis sagittis ullamcorper. Proin 
+                      lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et 
+                      lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et 
+                      ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus 
+                      adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada 
+                      tincidunt. Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, 
+                      gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. 
+                      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                      cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl 
+                      ut dolor dignissim semper. Nulla luctus malesuada tincidunt.</p>                    
+                  </div>
+                </div>
+                <div  style="display: none;" id="textDetailProduit">
+                  <div class="std">
+                    <p>Proin2 lectus ipsum, gravida et mattis vulputate, 
+                      tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in 
+                      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend 
+                      laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla
+                      luctus malesuada tincidunt. Nunc facilisis sagittis ullamcorper. Proin 
+                      lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et 
+                      lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et 
+                      ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus 
+                      adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada 
+                      tincidunt. Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, 
+                      gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. 
+                      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                      cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl 
+                      ut dolor dignissim semper. Nulla luctus malesuada tincidunt.</p>                    
+                  </div>
+                </div>                              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>  
+    <h5 class="text-center">Produits similaires</h5>
+    <br>
+    <div class="row">
+      <div class="col-md-3 Product">
+        <figure class="card card-product">
+          <div class="img-wrap"><img class="responsiveImageProduct" src="images/shampoing-comme-avant-14529518.png"></div>
+
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btnHeartProduct  btn-sm"><img src="https://img.icons8.com/material-rounded/24/ffffff/like--v1.png"/></button>  
+          </form>          
+          
+            <figcaption class="infoProduct">
+              <h6 class="titleProduct">Shampoing naturel</h6>
+              <span> <b> Huiles essenteilles</span> </b><br>
+              <p><small>Olivia health</small> </p>              
+              <h5>
+                <span class="red-text font-weight-bold">
+                  <strong>120.<small><b>00</b></small> €</strong>
+                </span>
+              </h5>             
+            </figcaption>           
+            <div class="bottom-wrap">
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Produits naturels</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Sains</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Bio</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Vegan</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0"><small>plus</small></a> 
+            </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-3 Product">
+        <figure class="card card-product">
+          <div class="img-wrap"><img class="responsiveImageProduct" src="images/NoPath_fd.png"></div>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btnHeartProduct  btn-sm"><img src="https://img.icons8.com/material-rounded/24/ffffff/like--v1.png"/></button>  
+          </form>
+            <figcaption class="infoProduct">
+              <h6 class="titleProduct">Pack Huiles Essenteilles</h6>
+              <span> <b> Huiles essenteilles</span> </b><br>
+              <p><small>Olivia health</small> </p>              
+              <h5>
+                <span class="red-text font-weight-bold">
+                  <strong>120.<small><b>00</b></small> €</strong>
+                </span>
+              </h5>             
+            </figcaption>
+            <div class="bottom-wrap">
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Produits naturels</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Sains</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Bio</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Vegan</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0"><small>plus</small></a> 
+            </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->    
+      <div class="col-md-3 Product">
+        <figure class="card card-product">
+          <div class="img-wrap"><img class="responsiveImageProduct" src="images/NoPath_-_Copy_4.png"></div>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btnHeartProduct  btn-sm"><img src="https://img.icons8.com/material-rounded/24/ffffff/like--v1.png"/></button>  
+          </form>
+            <figcaption class="infoProduct">
+              <h6 class="titleProduct">Pack Huiles Essenteilles</h6>
+              <span> <b> Huiles essenteilles</span> </b><br>
+              <p><small>Olivia health</small> </p>              
+              <h5>
+                <span class="red-text font-weight-bold">
+                  <strong>120.<small><b>00</b></small> €</strong>
+                </span>
+              </h5>             
+            </figcaption>           
+            <div class="bottom-wrap">
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Produits naturels</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Sains</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Bio</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Vegan</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0"><small>plus</small></a> 
+            </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->    
+      <div class="col-md-3 Product">
+        <figure class="card card-product">
+          <div class="img-wrap"><img class="responsiveImageProduct" src="images/NoPath_-_Copy.png"></div>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btnHeartProduct  btn-sm"><img src="https://img.icons8.com/material-rounded/24/ffffff/like--v1.png"/></button>  
+          </form>
+            <figcaption class="infoProduct">
+              <h6 class="titleProduct">Pack Huiles Essenteilles</h6>
+              <span> <b> Huiles essenteilles</span> </b><br>
+              <p><small>Olivia health</small> </p>              
+              <h5>
+                <span class="red-text font-weight-bold">
+                  <strong>120.<small><b>00</b></small> €</strong>
+                </span>
+              </h5>             
+            </figcaption>           
+            <div class="bottom-wrap">
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Produits naturels</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Sains</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Bio</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0">Vegan</a>
+              <a href="#" class="badge badge-light product mb-4 ml-xl-0 ml-4 rounded-0"><small>plus</small></a> 
+            </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->    
+    </div> <!-- row.// -->
+    
+    
+    
+
+ 
+    </div> 
+    <!--container.//-->
+
+    <footer class="bg-dark text-center text-white">      
+      <div class="text-center p-3 text-dark" style="background-color: #F7F7F7;">     
+        <div class="row">
+          <div class="col-sm-3">
+            <div><img class="IconeFooterServices" src="images/Groupe_de_masques_14.png" alt="" srcset=""></div>
+            <div class="titleServices">Paiement en ligne 100% sécurisé</div> 
+            <small class="DecriptionServices">Carte bancaire - Paypal</small>
+          </div>
+          <div class="col-sm-3">
+            <div><img class="IconeFooterServices" src="images/Groupe_de_masques_13.png" alt="" srcset=""></div>
+            <div class="titleServices">Service client</div> 
+            <small class="DecriptionServices">+33 7 78 95 86 45 du lundi au vendredi de 9h à 13h et de 14h à 17h</small>
+          </div>
+          <div class="col-sm-3">
+            <div><img class="IconeFooterServices" src="images/Groupe_de_masques_15.png" alt="" srcset=""></div>
+            <div class="titleServices">Besoin d'un conseil ?</div> 
+            <small class="DecriptionServices">Contactez-nous par formulaire</small>
+          </div>
+          <div class="col-sm-3">
+            <div><img class="IconeFooterServices" src="images/Groupe_de_masques_16.png" alt="" srcset=""></div>
+            <div class="titleServices">Produits naturels</div>
+            <small class="DecriptionServices">Pour une consommation raisonnée et écologique</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-3 text-white divNewsLetter" style="background-color: #3AB39B;">
+        <br>     
+        <div class="row">
+          <div class="col-sm-6">
+              <h5>Je m'abonne à la newsletter</h5>
+          </div>
+          <div class="text-left col-sm-6">
+            <input type="mail" id="inputTextEmailNewsLetter" placeholder="Votre email"/>
+            <button class="btn btnNewsLetter btn-md"><img src="https://img.icons8.com/material/24/ffffff/filled-sent.png"/></button>            
+            <div class="form-group form-check checkBoxNewsLetter">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">En cochant et validant, j'accepte de recevoir par mail les newsletters de Nenufea.
+                Mes données seront traitées conformément à la Politique de Gestion des Données Personnelles que j'ai lue et acceptée.</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3 text-white divNewsLetter" style="background-color: #204546;">
+        <br>     
+        <div class="row">
+          <div class="styleMarginFooter" class="col-sm-12">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed sodales mauris, eget laoreet nisi. Aenean eu leo et orci iaculis gravida. Proin nec quam quis quam convallis fermentum. Suspendisse id efficitur urna. Quisque pretium, orci a pretium sagittis, nisl libero consectetur mauris, vitae mollis tellus nulla non mi. Maecenas lectus risus, volutpat ut condimentum
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <div class="text-center p-3 text-white" style="background-color: #336667;">
+        <br>     
+        <div class="row">          
+          <div  class="col-sm-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="222" height="165.304" viewBox="0 0 222 165.304">
+              <g id="Groupe_136" data-name="Groupe 136" transform="translate(-93 -3984)">
+                <g id="Groupe_1" data-name="Groupe 1" transform="translate(145.557 3984)">
+                  <path id="Tracé_1" data-name="Tracé 1" d="M1600.932,377.427v.006a.01.01,0,0,1,0-.006Z" transform="translate(-1490.572 -344.802)" fill="#fff"/>
+                  <path id="Tracé_2" data-name="Tracé 2" d="M1601.074,378.162c-.016-.08-.029-.151-.035-.205C1601.049,378.012,1601.061,378.079,1601.074,378.162Z" transform="translate(-1490.646 -345.162)" fill="#fff"/>
+                  <path id="Tracé_3" data-name="Tracé 3" d="M1601.756,383.15c-.023-.225-.045-.437-.068-.633C1601.715,382.713,1601.737,382.925,1601.756,383.15Z" transform="translate(-1491.087 -348.258)" fill="#fff"/>
+                  <path id="Tracé_4" data-name="Tracé 4" d="M1373.774,304.236a79.87,79.87,0,0,0-16.125.055,48.9,48.9,0,0,0-7.3-22.186,72.6,72.6,0,0,0-17.627,10.368c-5.481-8.467-16.1-16.654-16.1-16.654-9.645,4.63-17.457,15.087-18.407,16.391a71.474,71.474,0,0,0-17.771-10.1c-4.45,7.86-6.576,15.049-7.08,21.6a109.13,109.13,0,0,0-15.206-.283s-12.8,52.984,55.916,51.832a.071.071,0,0,1,0,.026S1380.192,361.1,1373.774,304.236Zm-26.088-14.875a46.368,46.368,0,0,1,3.763,15.839c-.263.048-.53.1-.793.151s-.533.106-.8.161l-.6.125-.472.106c-.177.039-.356.08-.536.122-.36.084-.716.173-1.075.263s-.723.183-1.082.283c-.311.084-.619.17-.931.26-.276.077-.555.161-.835.244-.253.077-.51.157-.764.238-.783.25-1.564.517-2.347.8-.36.132-.719.27-1.075.408-.177.071-.36.141-.539.215s-.36.145-.536.222c-.356.148-.713.3-1.069.459-.193.087-.389.173-.581.266-.145.064-.286.132-.427.2-.2.09-.388.183-.581.276-.35.173-.7.35-1.047.53s-.693.366-1.04.559c-.276.154-.549.308-.822.469-.135.077-.27.161-.4.241s-.27.164-.4.244-.276.167-.411.254q-.25.154-.5.318c-.334.218-.665.44-1,.665l-.289.2c-.1.067-.2.138-.292.209-.2.138-.388.276-.578.421-.023.016-.045.032-.064.048s-.016.013-.026.019c-.119.087-.241.177-.356.27-.135.1-.273.209-.407.315-.113.09-.228.18-.341.273q-.972.78-1.9,1.637c-.3.276-.6.559-.893.848-.147.144-.292.289-.437.437s-.289.3-.433.446-.286.3-.427.456q-.26.284-.52.578a.185.185,0,0,1-.032.035l-.007.006-.048.058c-.148.17-.3.347-.446.523s-.286.344-.427.517-.283.35-.421.527-.276.356-.411.536-.273.366-.4.549c-.064.09-.128.177-.19.266q-.14.193-.27.385c-.093.132-.183.263-.269.4-.061.09-.122.18-.18.273s-.128.189-.189.286c-.148.228-.292.462-.437.7C1322.482,300.36,1347.686,289.36,1347.686,289.36ZM1279.7,303.7l.029-.4c.016-.225.032-.449.055-.668.016-.177.032-.353.048-.527.029-.286.058-.565.093-.844.013-.116.029-.231.045-.347s.029-.228.045-.34c.032-.25.068-.5.106-.738.022-.151.048-.3.074-.453s.048-.3.074-.443c.052-.292.106-.581.161-.864q.034-.173.068-.337c.045-.221.09-.443.138-.658s.1-.427.145-.636c.026-.1.051-.206.073-.308.052-.205.1-.4.151-.6.1-.395.205-.774.308-1.133.08-.27.157-.533.234-.783.043-.14.086-.276.129-.412.034-.107.068-.212.1-.314.023-.077.048-.154.074-.228.051-.148.1-.292.148-.433.1-.279.193-.543.286-.79.039-.1.077-.205.112-.3a.837.837,0,0,0,.035-.093c.038-.1.074-.186.109-.273.08-.2.154-.385.222-.546.035-.08.067-.154.1-.225s.058-.135.084-.193c.132-.292.205-.446.205-.446,19.9,10.843,26.524,23.818,27.94,34.564-.077-.135-.157-.27-.237-.4l-.183-.308-.058-.1c-.119-.193-.238-.385-.363-.578-.01-.016-.019-.035-.032-.055-.122-.189-.247-.382-.373-.572-.022-.032-.045-.067-.067-.1-.157-.231-.315-.462-.479-.694-.07-.1-.141-.2-.212-.3s-.145-.2-.218-.3q-.077-.111-.164-.222s-.006-.01-.01-.013c-.115-.154-.231-.3-.35-.459-.006-.01-.016-.019-.022-.029-.193-.244-.389-.491-.591-.732-.183-.225-.373-.446-.565-.668-.221-.254-.447-.5-.678-.755-.115-.125-.231-.247-.35-.372-.1-.106-.2-.209-.3-.315-.135-.141-.276-.283-.417-.421-.125-.122-.247-.244-.373-.366-.189-.183-.382-.363-.574-.539s-.392-.356-.591-.533c0,0,0,0,0,0-.183-.161-.366-.318-.552-.475s-.347-.292-.523-.437l-.324-.257c-.16-.128-.324-.254-.488-.382s-.331-.25-.5-.376c-.334-.247-.677-.494-1.027-.735-.177-.122-.353-.244-.533-.363-.636-.424-1.3-.841-1.984-1.243-.238-.138-.475-.276-.719-.411-.042-.026-.083-.048-.129-.071-.24-.135-.488-.27-.735-.4-.363-.19-.729-.379-1.1-.565-.138-.071-.279-.138-.424-.206s-.286-.138-.43-.205c-.074-.032-.145-.067-.215-.1s-.144-.067-.218-.1c-.145-.067-.292-.135-.44-.2-.427-.189-.857-.376-1.3-.555-.17-.067-.34-.138-.514-.206-.411-.164-.832-.324-1.259-.478-.212-.077-.43-.157-.648-.231-.434-.151-.874-.3-1.32-.446s-.9-.283-1.364-.421c-.206-.061-.411-.122-.623-.18-.157-.045-.315-.09-.475-.132-.042-.013-.087-.022-.128-.035l-.026-.006q-2.923-.795-6.213-1.361C1279.676,304.248,1279.689,303.972,1279.7,303.7Zm-16.125,4.739a61.722,61.722,0,0,1,9.726.292c.594,11.472,6.258,20.716,13,27.744.205.212.408.424.616.633a79.144,79.144,0,0,0,17.9,13.309C1291.344,349.658,1260.34,344.091,1263.58,308.438Zm48.014,39.621c-3.734-2-6.977-3.991-9.465-5.612-.045-.026-.087-.055-.132-.083q-1.016-.641-1.975-1.291c-.177-.116-.353-.238-.527-.356-.035-.026-.071-.051-.109-.077-.208-.144-.414-.289-.62-.437-.4-.283-.793-.572-1.178-.857-.206-.154-.408-.308-.61-.462l-.109-.083v0c-.17-.125-.337-.257-.5-.388-.417-.331-.828-.665-1.226-1-.129-.1-.257-.212-.385-.324-.2-.167-.4-.34-.594-.511-.344-.3-.677-.594-1-.9q-.737-.679-1.422-1.361c-.154-.148-.305-.3-.453-.456s-.3-.3-.437-.45l-.01-.01q-1.093-1.141-2.052-2.3c-.132-.154-.257-.308-.379-.462s-.25-.311-.372-.466-.244-.308-.36-.462-.238-.308-.353-.466-.231-.308-.34-.462c-.678-.931-1.294-1.862-1.859-2.793q-.289-.467-.549-.934c-.087-.154-.177-.311-.26-.466s-.173-.311-.254-.466c-.25-.466-.485-.931-.71-1.4-.077-.154-.148-.308-.218-.462s-.145-.311-.212-.466-.141-.308-.205-.462c-.19-.437-.369-.873-.536-1.307-.1-.244-.189-.488-.276-.732-.074-.2-.144-.395-.212-.594l-.048-.135c-.1-.3-.2-.6-.3-.905s-.186-.607-.27-.909c-.064-.225-.128-.453-.186-.677s-.119-.45-.173-.674q-.164-.674-.3-1.339c-.061-.3-.119-.591-.17-.883-.026-.145-.052-.292-.077-.437-.051-.292-.1-.584-.138-.873-.026-.183-.051-.363-.074-.543s-.048-.36-.067-.536-.042-.356-.058-.533-.035-.353-.051-.53c.225.048.453.1.681.148l.292.067c.035.006.071.016.109.026.164.035.328.074.495.116.626.148,1.262.311,1.9.491.292.08.588.167.883.257.279.08.562.167.841.257.016.006.032.01.048.016.3.093.594.189.889.292q.925.313,1.849.668c.276.109.549.215.822.328.3.122.594.244.889.376.266.112.533.231.8.353.061.029.119.055.177.083.266.122.53.247.8.379.292.141.584.289.877.44s.6.318.9.482c.28.154.559.311.835.475l.777.466.5.318c.142.087.283.177.421.273.279.18.559.369.835.565s.549.389.822.594.542.4.809.62l.4.321q.2.154.4.327c.131.109.263.222.391.334.263.221.52.453.774.694.129.112.254.231.379.356s.251.234.376.363a31.368,31.368,0,0,1,4.72,5.908.073.073,0,0,0,.019.029c.093.148.186.3.276.453,0,0,0,.006.006.01a32.852,32.852,0,0,1,2.331,4.768c.02.048.042.1.058.141A44.9,44.9,0,0,1,1311.594,348.059Zm3.866-32.3s-.019-.074-.064-.209c-.019-.067-.042-.132-.061-.2-.013-.038-.026-.077-.039-.119-.026-.087-.058-.18-.093-.283s-.074-.218-.119-.34c-.006-.019-.013-.042-.022-.064-.019-.051-.035-.1-.055-.151s-.042-.116-.061-.173l-.164-.44a41.208,41.208,0,0,0-4.508-8.871l-.206-.311a48.985,48.985,0,0,0-4.537-5.7c-.013-.016-.029-.032-.042-.048-.976-1.06-1.981-2.065-3-3.015,3.647-5.641,12.358-12.564,13.681-13.6.054-.045.112-.087.17-.132,0,0,.038.042.112.119s.154.157.225.238c1.181,1.236,2.318,2.476,3.391,3.68.09.1.183.206.276.308,3.044,3.362,6.91,7.789,8.133,9.876,0,0-8.653,8.358-13.007,19.4Zm3.269,32.625a.1.1,0,0,1,.032-.016l-.045.019a.3.3,0,0,1-.035.016l-.045.019a.01.01,0,0,1-.006,0,106.833,106.833,0,0,1,3.3-13.219c.238-.787.51-1.586.815-2.389.064-.173.132-.344.2-.517.109-.276.222-.555.34-.835.007-.016.013-.029.02-.042.449-1.056.96-2.122,1.541-3.182.071-.128.145-.26.219-.388.145-.26.3-.52.453-.777.071-.122.145-.244.222-.363.289-.475.6-.944.918-1.413.141-.206.286-.411.433-.613s.286-.392.434-.587c.019-.026.038-.055.061-.08.128-.17.26-.337.392-.5s.266-.334.4-.5.276-.334.417-.5.286-.328.43-.491.292-.328.443-.488c.3-.324.614-.649.935-.966.174-.177.35-.347.53-.517.151-.141.3-.286.459-.427s.315-.286.475-.427c.183-.161.366-.321.552-.475s.376-.315.568-.469c.045-.039.09-.077.138-.112l.141-.112c.279-.221.562-.44.854-.655.154-.116.308-.228.466-.34.244-.177.491-.35.745-.52.167-.112.33-.225.5-.334q.381-.25.771-.491c.433-.27.88-.536,1.335-.793.228-.128.459-.257.694-.382a.2.2,0,0,1,.045-.026c.225-.119.456-.241.687-.36.247-.125.5-.254.751-.376.231-.112.466-.225.7-.334.064-.032.131-.061.2-.09.141-.067.286-.132.43-.2l.138-.061c.26-.112.52-.225.783-.334.3-.128.607-.25.915-.369.161-.064.324-.128.491-.189.373-.145.751-.279,1.136-.414.167-.058.334-.119.5-.173.1-.032.193-.064.286-.093.283-.093.572-.186.864-.276s.594-.183.9-.27c.151-.045.3-.087.456-.128s.3-.087.462-.128q1.388-.376,2.868-.693c-.02.257-.042.517-.068.771,0,.032-.006.061-.01.093-.01.093-.019.186-.032.276-.016.161-.035.321-.058.478-2.164,17.557-16.808,27.879-23.943,31.925A55.143,55.143,0,0,1,1318.728,348.381Zm49.327-33.052c-.007.231-.013.466-.023.706-.01.186-.016.379-.029.572,0,.093-.01.189-.016.286v.006c-.013.193-.026.392-.042.591s-.032.4-.051.607q-.014.154-.029.308c-.016.154-.032.311-.052.466s-.035.315-.054.472c-.013.106-.026.212-.042.318s-.029.212-.045.321-.032.222-.048.334c-.032.215-.067.43-.1.645s-.077.44-.119.661c0,.01,0,.022-.006.032-.039.215-.081.427-.125.642,0,.013-.007.029-.01.042-.026.135-.054.267-.087.4-.042.193-.087.385-.132.578-.026.116-.054.228-.083.344s-.058.228-.087.344c-.039.151-.081.3-.122.459-.035.135-.074.27-.112.4s-.077.27-.119.4c-.2.677-.427,1.355-.684,2.039-.048.138-.1.273-.154.411s-.1.27-.157.4c0,0,0,0,0,.006-.119.3-.247.6-.379.9-.055.128-.112.257-.17.382-.112.247-.225.491-.344.735-.093.193-.189.388-.289.581-.064.125-.132.25-.2.376-.09.167-.18.337-.273.5-.064.112-.125.228-.193.34-.08.141-.161.283-.244.421s-.167.283-.25.421-.17.279-.26.417-.18.279-.27.417-.183.276-.279.414-.18.263-.273.395c-.122.173-.247.347-.372.52-.183.244-.366.488-.559.729-.106.135-.212.273-.324.4s-.221.27-.334.4c-.074.09-.154.183-.231.273l-.006.006c-.013.016-.026.029-.039.045q-.38.438-.783.867c-.125.132-.247.263-.375.392s-.254.26-.382.388-.254.25-.382.372c-.273.26-.549.52-.835.774-.238.212-.478.421-.726.629s-.5.414-.758.616-.52.4-.79.6-.54.4-.819.591-.565.388-.854.578c-.148.1-.292.189-.44.283-.3.189-.6.376-.906.555-.154.093-.311.183-.469.273-.212.122-.427.244-.645.36-.113.064-.225.125-.34.186-.151.083-.3.167-.462.244s-.331.173-.5.257c-.337.17-.681.337-1.031.5-.263.122-.53.244-.8.36-.09.042-.18.08-.27.119-.18.08-.363.157-.546.234s-.369.154-.559.228c-.282.112-.565.222-.854.331s-.577.218-.873.324c-.395.141-.8.276-1.2.411-.61.2-1.233.392-1.875.575-.215.061-.431.122-.649.18-.176.048-.353.1-.53.141-.064.019-.128.035-.2.051s-.132.035-.2.051c-.132.035-.267.067-.4.1-.225.058-.449.112-.677.164q-.684.159-1.387.308c-.469.1-.944.2-1.429.286s-.973.177-1.471.257c-.25.042-.5.083-.755.119-.189.032-.379.058-.568.087q-.867.125-1.756.234c-.4.048-.8.093-1.2.135-.055.006-.109.013-.167.016-.141.016-.282.029-.424.042s-.286.029-.43.042c-.34.032-.687.061-1.037.09-.28.022-.559.045-.844.064s-.568.042-.854.058c23.468-12.946,30.336-28.39,30.907-41.31.363-.042.729-.08,1.1-.119.186-.019.372-.035.558-.055.28-.026.559-.051.845-.074.141-.013.283-.026.427-.035s.282-.022.427-.032c.382-.029.768-.055,1.156-.08,1.557-.093,3.169-.145,4.855-.145.17,0,.344,0,.517,0a.01.01,0,0,0,0,.006.063.063,0,0,0,0,.023.817.817,0,0,0,.016.08.586.586,0,0,0,.013.061c.006.055.019.125.035.206.006.048.016.1.026.161,0,.01,0,.019,0,.029.013.071.026.144.035.228s.019.145.032.225c.006.039.01.08.016.119s.01.083.016.128c.013.116.029.238.045.369.022.2.045.408.068.633.006.077.016.154.022.231.016.157.029.321.042.491.032.427.058.893.08,1.39.01.2.016.4.019.613,0,.074,0,.151,0,.231s.006.157,0,.238c.006.266.01.539,0,.819C1368.062,314.921,1368.059,315.123,1368.056,315.329Z" transform="translate(-1257.22 -275.817)" fill="#fff"/>
+                </g>
+                <g id="Groupe_3" data-name="Groupe 3" transform="translate(93 4084.336)">
+                  <g id="Groupe_2" data-name="Groupe 2" transform="translate(0 3.399)">
+                    <path id="Tracé_12" data-name="Tracé 12" d="M1743.263,332.072v1.763q-3.3,0-3.868.569a5.943,5.943,0,0,0-1.479,4.381l.114,33.451h-1.309l-24.064-37.092v29.468a5.762,5.762,0,0,0,1.422,4.324q.568.57,3.869.569v1.764h-12.573V369.5q3.185,0,3.755-.512a5.477,5.477,0,0,0,1.593-4.381V335.144q-.171-1.308-1.707-1.309h-3.186v-1.763h11.378l18.83,29.3V338.785a5.883,5.883,0,0,0-1.593-4.438q-.627-.512-3.755-.512v-1.763Z" transform="translate(-1705.375 -332.072)" fill="#fff"/>
+                  </g>
+                  <path id="Tracé_13" data-name="Tracé 13" d="M1858.878,386.553h-18.091q0,5.007,2.5,7.794,2.56,3.016,7.509,3.015,2.616,0,6.77-2.617l.739.569a12.44,12.44,0,0,1-10.012,4.949q-5.973,0-9.386-3.584a13.091,13.091,0,0,1-3.186-9.216,15.126,15.126,0,0,1,3.442-9.927,11.356,11.356,0,0,1,9.244-4.181,9.848,9.848,0,0,1,7.68,3.215,11.334,11.334,0,0,1,2.9,7.879Q1858.991,385.076,1858.878,386.553Zm-4.893-2.047a13.333,13.333,0,0,0-1.507-6.713,4.9,4.9,0,0,0-4.523-2.617,6.355,6.355,0,0,0-5.063,2.446,10.235,10.235,0,0,0-2.048,6.77Q1851.481,384.677,1853.985,384.506Z" transform="translate(-1793.872 -356.701)" fill="#fff"/>
+                  <path id="Tracé_14" data-name="Tracé 14" d="M1958.132,399.089v1.536h-13.881v-1.536h3.356q1.081,0,1.252-1.308V384.3a7.3,7.3,0,0,0-1.707-5.149,5.7,5.7,0,0,0-4.38-1.849,7.91,7.91,0,0,0-4.949,1.764q-2.163,1.821-2.162,3.413v15.3q.17,1.31,1.308,1.308h3.3v1.536h-13.881v-1.536h3.3q1.137,0,1.309-1.308V378.1a1.742,1.742,0,0,0-1.934-1.935h-2.674v-1.536h9.33v1.536q-.057.683-.057,1.593v1.138a8.677,8.677,0,0,1,2.389-2.731,10.023,10.023,0,0,1,6.315-2.275q9.159,0,9.159,9.728V397.78q.171,1.31,1.309,1.308Z" transform="translate(-1855.425 -357.063)" fill="#fff"/>
+                  <path id="Tracé_15" data-name="Tracé 15" d="M2067.356,398.349v1.593h-9.1l-.057-4.608a11.391,11.391,0,0,1-10.069,5.291q-5.177,0-6.827-3.072-.969-1.762-.968-6.485v-13.71q-.171-1.934-1.934-1.934h-2.674v-1.536H2045V390.5q0,3.584,1.223,5.148t4.75,1.564a6.9,6.9,0,0,0,4.779-2.162q2.275-2.275,2.275-4.267V377.357a1.826,1.826,0,0,0-2.047-1.934h-2.617v-1.536h9.273V397.1a1.043,1.043,0,0,0,.483.939,1.727,1.727,0,0,0,.939.312Z" transform="translate(-1929.658 -357.063)" fill="#fff"/>
+                  <path id="Tracé_16" data-name="Tracé 16" d="M2250.858,386.553h-18.091q0,5.007,2.5,7.794,2.559,3.016,7.509,3.015,2.617,0,6.77-2.617l.74.569a12.44,12.44,0,0,1-10.012,4.949q-5.973,0-9.387-3.584a13.087,13.087,0,0,1-3.186-9.216,15.126,15.126,0,0,1,3.442-9.927,11.355,11.355,0,0,1,9.244-4.181,9.848,9.848,0,0,1,7.68,3.215,11.332,11.332,0,0,1,2.9,7.879Q2250.971,385.076,2250.858,386.553Zm-4.892-2.047a13.339,13.339,0,0,0-1.507-6.713,4.9,4.9,0,0,0-4.523-2.617,6.353,6.353,0,0,0-5.062,2.446,10.234,10.234,0,0,0-2.048,6.77Q2243.461,384.677,2245.966,384.506Z" transform="translate(-2059.996 -356.701)" fill="#fff"/>
+                  <path id="Tracé_17" data-name="Tracé 17" d="M2342.9,397.627v1.593h-9.1v-4.665q-5.064,5.348-9.557,5.348a6.655,6.655,0,0,1-4.835-1.764,6.333,6.333,0,0,1-1.991-5.006,7.428,7.428,0,0,1,3.47-6.713,21.772,21.772,0,0,1,7.339-2.446l5.575-.967a15.106,15.106,0,0,0-.682-5.917,3.987,3.987,0,0,0-3.926-2.674q-4.835,0-4.893,3.243a2.226,2.226,0,0,0,.654,1.337,6.305,6.305,0,0,1,.654.825,1.529,1.529,0,0,1-.824,1.422,2.107,2.107,0,0,1-1.622.4q-2.845,0-2.787-3.157t3.925-4.75a14.108,14.108,0,0,1,5.063-.911q4.493,0,6.713,2.5,2.218,2.73,2.218,8.647v12.4a1.138,1.138,0,0,0,.4.911,1.357,1.357,0,0,0,.91.341Zm-9.1-5.348v-7.4a34.5,34.5,0,0,0-8.135,1.877,5.005,5.005,0,0,0-2.446,2.1,6.171,6.171,0,0,0-.967,3.356,4.127,4.127,0,0,0,1.28,3.072,4.565,4.565,0,0,0,3.072,1.337,6.58,6.58,0,0,0,3.812-1.195A12.239,12.239,0,0,0,2333.8,392.279Z" transform="translate(-2120.904 -356.34)" fill="#fff"/>
+                  <path id="Tracé_18" data-name="Tracé 18" d="M2166.071,326.942s-.775,3.405,2.614,3.658,4.6-3.036,2.824-6.184-7.181-3.345-10.006-2.5-5.281,2.671-6.277,7.9a43.707,43.707,0,0,0-.739,9.619l-.03,9.209h-5.913v2.282h5.952l-.164,35.532h5.47V350.923h6.7v-2.282h-6.7l.14-17.47s.169-7.621,2.559-8.482,4.137.21,3.9,2.078-.327,2.175-.327,2.175" transform="translate(-2006.252 -321.487)" fill="#fff"/>
+                </g>
+              </g>
+            </svg>
+            <br><br>        
+              <p class="textLogoFooter">
+                In eleifend risus id ex tincidunt dapibus. Aenean velit risus, imperdiet non varius
+              </p>                        
+          </div>
+          <div  class="col-sm-1"></div>
+          <div  class="text-left col-sm-2">
+            <h5>À propos</h5>   
+            <a class="userfulLinkFooter" href="">Qui sommes nous</a>
+            <a class="userfulLinkFooter" href="">CGU</a>
+            <a class="userfulLinkFooter" href="">CGV</a>
+            <a class="userfulLinkFooter" href="">Mentions légales</a>
+            <a class="userfulLinkFooter" href="">Données personnelles</a>
+            <a class="userfulLinkFooter LastUsefulLinkFooter" href="">Plan du site</a>            
+          </div>
+          <div  class="text-left col-sm-2">
+            <h5>Commerçants</h5>   
+            <a class="userfulLinkFooter" href="">Boutiques</a>
+            <a class="userfulLinkFooter" href="">Catégories</a>
+            <a class="userfulLinkFooter LastUsefulLinkFooter" href="">Produits</a>                 
+          </div>
+          <div  class="text-left col-sm-2">
+            <h5>Votre compte</h5>   
+            <a class="userfulLinkFooter" href="">Livraison</a>
+            <a class="userfulLinkFooter" href="">Commandes</a>
+            <a class="userfulLinkFooter" href="">Informations personnelles</a>
+            <a class="userfulLinkFooter LastUsefulLinkFooter" href="">Bons de réduction</a>                  
+          </div>
+          <div  class="text-left col-sm-2">
+            <h5>Besoin d'aide ?</h5>   
+            <a class="userfulLinkFooter" href="">FAQ</a>
+            <a class="userfulLinkFooter" href="">Nous contacter</a>            
+          </div>
+        </div>        
+            
+      </div>
+        
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #336667;">
+        <hr class="lineFooterSeparation">  
+        <div class="row">
+          <div class="text-center col-sm-3 responsiveFooter2Icones">
+            <small><b>Copyright © 2020 - Khalid dniden</b></small>
+          </div>
+          <div  class="text-center col-sm-2 responsiveFooter2Icones">
+            <img src="https://img.icons8.com/android/24/ffffff/facebook.png"/>
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/>
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter-squared.png"/>
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-squared.png"/>
+            
+          </div>
+          <div  class="text-center col-sm-2 responsiveFooter2Icones">
+            <img src="images/paypal.png" alt="" srcset="">
+            <img src="images/visa.png" alt="" srcset="">
+            <img src="images/mastercard.png" alt="" srcset="">
+          </div>
+          <div  class="text-center col-sm-3"></div>
+          <div  class="text-center EgioLogoFooterDiv col-sm-1 responsiveFooter2Icones">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70.908" height="25.526" viewBox="0 0 70.908 25.526">
+              <g id="Groupe_137" data-name="Groupe 137" transform="translate(-1289 -3829.1)">
+                <g id="Groupe_63" data-name="Groupe 63" transform="translate(1068.028 3608.301)">
+                  <g id="Layer_1" data-name="Layer 1" transform="translate(251.953 228.023)">
+                    <g id="Groupe_62" data-name="Groupe 62">
+                      <path id="Tracé_107" data-name="Tracé 107" d="M850.325,370.5a5.543,5.543,0,1,0-1.742,4.033l-1.487-1.485a3.44,3.44,0,0,1-5.506-1.269l-.091-.227h8.725A5.575,5.575,0,0,0,850.325,370.5Zm-8.826-1.05.091-.227a3.44,3.44,0,0,1,6.388,0l.091.227Z" transform="translate(-839.244 -364.956)" fill="#fff"/>
+                      <path id="Tracé_108" data-name="Tracé 108" d="M1101.946,370.5a5.657,5.657,0,0,1-.126,1.183,5.541,5.541,0,1,1-5.414-6.722,5.5,5.5,0,0,1,3.8,1.507l-1.487,1.487a3.438,3.438,0,1,0,.882,3.824l.091-.227h-3.118v-2.1h5.275A5.579,5.579,0,0,1,1101.946,370.5Z" transform="translate(-1078.256 -364.956)" fill="#fff"/>
+                      <path id="Tracé_109" data-name="Tracé 109" d="M1420.443,364.956a5.54,5.54,0,1,0,5.541,5.539A5.545,5.545,0,0,0,1420.443,364.956Zm0,8.978a3.439,3.439,0,1,1,3.439-3.439A3.442,3.442,0,0,1,1420.443,373.934Z" transform="translate(-1386.058 -364.956)" fill="#fff"/>
+                      <rect id="Rectangle_82" data-name="Rectangle 82" width="2.101" height="10.69" transform="translate(25.217 0.195)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Isolation_Mode" data-name="Isolation Mode" transform="translate(220.972 220.8)">
+                    <path id="Tracé_110" data-name="Tracé 110" d="M246.486,233a12.763,12.763,0,0,0-21.973-8.263,12.763,12.763,0,0,0,8.418,21.561q.4.025.8.025a12.7,12.7,0,0,0,6.576-1.822,3.338,3.338,0,0,0-3.445-5.719,6.079,6.079,0,0,1-3.12.865h-.011a6.088,6.088,0,0,1-6.079-6.406,6.138,6.138,0,0,1,5.739-5.76,6.092,6.092,0,0,1,6.339,5.032l-3.259.006a2.934,2.934,0,1,0,0,2.071l4.381-.008a1.036,1.036,0,0,0,1.034-1.037,8.074,8.074,0,0,0-1.7-4.977l1.8-1.8a10.683,10.683,0,0,1,1.448,11.29,1.036,1.036,0,0,0,1.878.873A12.655,12.655,0,0,0,246.486,233Zm-13.2-7.586a8.23,8.23,0,0,0-7.7,7.723,8.159,8.159,0,0,0,8.147,8.582h.014a8.148,8.148,0,0,0,4.183-1.161,1.267,1.267,0,0,1,1.31,2.17,10.7,10.7,0,1,1,1.282-17.42l-1.8,1.8A8.089,8.089,0,0,0,233.283,225.416Z" transform="translate(-220.972 -220.8)" fill="#fff"/>
+                  </g>
+                </g>
+              </g>
+            </svg>            
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <a href="#" id="scroll" style="display: none;"><span></span></a>
+</body>
+</html>
+<script src="js/scriptDownloadDetails.js"></script>
