@@ -33,18 +33,7 @@ div.col-sm-7.responsiveNavBar{
 }
 /* E,d style scrollbar */                   
                    
-
-
-.card {
-  display: contents;
-}
-
-
-
-
-
-
-/*Style carousel */
+                   /*Style carousel */
 .carousel-inner img {
   width: 120%;
   height: 100%
